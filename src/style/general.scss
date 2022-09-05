@@ -1,3 +1,7 @@
+:root{
+    $primary-color: #111111
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +10,12 @@
 
 body{
     font-family: sans-serif;
+}
+
+.btn-standard{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
 }

@@ -24,7 +24,7 @@
   
   <style lang="scss">
   
-    @import "@/style/general.scss";
+    
     @import "~@fortawesome/fontawesome-free/css/all.css";
-  
+    @import "@/style/general.scss";
   </style>

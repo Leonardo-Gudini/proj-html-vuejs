@@ -1,25 +1,29 @@
 <template>
   <div class="jumbo">
-    <div>
-        <h1>great food delivered</h1>
+    <div class="jumbo-text">
+        <h1>
+          Hungry?<br>
+          <span class="jumbo-colored">Great Food</span><br>
+          Delivered<br>
+        </h1>
         
-        <MyButton/>
+        <button class="btn-standard">view our menu <span></span></button>
     </div>
+
+    <InfoCard/>
   </div>
 </template>
 
 <script>
-import MyButton from '../MyButton.vue';
+import InfoCard from './InfoCard.vue';
 export default {
     name: "MyJumbo",
-    components: { 
-      MyButton, 
-    }
+    components: {
+    InfoCard
+}
 }
 </script>
 
 <style lang="scss">
-  .jumbo{
-        color: white;
-    }
+  @import "@/style/header.scss";
 </style>

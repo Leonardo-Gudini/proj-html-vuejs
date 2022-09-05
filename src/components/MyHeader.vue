@@ -1,9 +1,10 @@
 <template>
   <header>
     
-    <MyNavbar/>
-
-    <MyJumbo/>
+    <div class="container">
+      <MyNavbar/>
+      <MyJumbo/>
+    </div>
 
   </header>
 </template>
@@ -23,12 +24,7 @@ export default {
 
 <style lang="scss">
 
-header{
-    background-image: url("@/assets/images/home-background-hero-scaled.jpg"); // JUMBO IMAGE
-    background-position: center;
-    background-size: cover;
-    height: 1000px;
-}
-    
+  @import "@/style/header.scss";
+  @import "@/style/general.scss"
 
 </style>

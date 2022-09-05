@@ -39,16 +39,5 @@ export default {
 </script>
 
 <style lang="scss">
-
-    .nav{
-        display: flex;
-        ul{
-            display: flex;
-            list-style-type: none;
-            li{
-                color: white;
-                margin: 0 10px;
-            }
-        }
-    }
+    @import "@/style/header.scss";
 </style>
