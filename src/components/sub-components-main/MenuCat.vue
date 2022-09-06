@@ -16,11 +16,9 @@
             </ul>
 
             <ul>
-                <li>
-                    <div>
-                        
-                    </div>
-                    <h5></h5>
+                <li v-for="(icon, index) in category" :key="index">
+                    <div class="icon" v-html="icon.icon"></div>
+                    <h4>{{icon.text}}</h4>
                 </li>
             </ul>
         </div>
@@ -36,7 +34,8 @@
             menus:[
                 {
                     img: 'appetizers-menu-background.jpg',
-                    title: 'appetiziers'
+                    title: 'appetiziers',
+                    color: 'green'
                 },
                 {
                     img: 'burgers-menu-background.jpg',
@@ -65,6 +64,25 @@
                 {
                     img: 'specials-menu-background.jpg',
                     title: 'specials'
+                },
+            ],
+
+            category: [
+                {
+                    icon: '<i class="fa-solid fa-leaf green"></i>',
+                    text: 'Vegetarian'
+                },
+                {
+                    icon: '<i class="fa-solid fa-wheat-awn gold"></i>',
+                    text: 'Gluten Free'
+                },
+                {
+                    icon: '<i class="fa-solid fa-cow blue"></i>',
+                    text: 'Dairy Free'
+                },
+                {
+                    icon: '<i class="fa-solid fa-drumstick-bite brown"></i>',
+                    text: 'Keto Friendly'
                 },
             ]
   

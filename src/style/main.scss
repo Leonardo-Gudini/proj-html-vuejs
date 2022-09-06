@@ -29,15 +29,33 @@
         .title-section{
             display: flex;
             justify-content: space-between;
+            padding: 10px;
         }
         ul{
             display: flex;
             flex-wrap: wrap;
             list-style-type: none;
+            margin-top: 40px;
             li{
                 width: calc(100%/ 4);
                 padding: 10px;
                 position: relative;
+                text-align: center;
+                .green{
+                    color: green;
+                }
+                .gold{
+                    color: goldenrod;
+                }
+                .blue{
+                    color: #42a3ef;
+                }
+                .brown{
+                    color: #6b4328;
+                }
+                .icon{
+                    font-size: 35px;
+                }
                 img{
                     width: 100%;
                 }
