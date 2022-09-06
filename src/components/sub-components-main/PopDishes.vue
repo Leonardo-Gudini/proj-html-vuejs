@@ -3,10 +3,10 @@
     <h2>Our Most Popular Dishes</h2>
 
     <ul>
-        <li v-for="(dishe, index) in dishes" :key="index">
-            <img :src="'@/assets/images/' + dishe.img" alt="dishe.title">
-            <h3>{{dishe.title}}</h3>
-            <h4>{{dishe.price}}</h4>
+        <li v-for="(dish, index) in dishes" :key="index">
+            <img :src="'@/assets/images/' + dish.img" alt="dish.title">
+            <h3>{{dish.title}}</h3>
+            <h4>{{dish.price}}</h4>
         </li>
     </ul>
 
