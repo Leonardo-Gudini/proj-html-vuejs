@@ -8,7 +8,9 @@
 export default {
     name: "MyFooter",
     data() {
-        
+        return{
+          
+        }
     }
 }
 </script>

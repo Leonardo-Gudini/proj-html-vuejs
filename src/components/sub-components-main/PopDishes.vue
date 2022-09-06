@@ -4,7 +4,7 @@
 
     <ul>
         <li v-for="(dish, index) in dishes" :key="index">
-            <img :src="'@/assets/images/' + dish.img" :alt="dish.title">
+            <img :src="require(`@/assets/images/${dish.img}`)" :alt="dish.title">
             <h3>{{dish.title}}</h3>
             <h4>{{dish.price}}</h4>
         </li>

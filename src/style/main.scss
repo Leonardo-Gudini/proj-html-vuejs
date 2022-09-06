@@ -22,3 +22,34 @@
 
     }
 }
+.menu-cat{
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        .title-section{
+            display: flex;
+            justify-content: space-between;
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+            li{
+                width: calc(100%/ 4);
+                padding: 10px;
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                h5{
+                    position: absolute;
+                    z-index: 999;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    color: white;
+                }
+            }
+        }
+    }
+}
