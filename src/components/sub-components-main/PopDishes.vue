@@ -11,6 +11,13 @@
     </ul>
 
     <button class="btn-standard">start your order <span><i class="fa-regular fa-circle-right"></i></span> </button>
+
+    <div class="discount-background">
+        <img src="@/assets/images/svg-0.svg" alt="svg">
+        <img class="op-30" src="@/assets/images/svg-0.svg" alt="svg">
+        <img class="op-25" src="@/assets/images/svg-0.svg" alt="svg">
+        <img class="op-20" src="@/assets/images/svg-0.svg" alt="svg">
+    </div>
   </section>
 </template>
 

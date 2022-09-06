@@ -21,6 +21,32 @@
         }
 
     }
+    .discount-background{
+        background-image: url('@/assets/images/first-order-background-scaled.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 800px;
+        position: relative;
+        .op-30{
+            position: absolute;
+            left: -100px;
+            top: 40px;
+            filter: opacity(0.30);
+            color: red;
+        }
+        .op-25{
+            position: absolute;
+            left: -40px;
+            top: 70px;
+            filter: opacity(0.25);
+        }
+        .op-20{
+            position: absolute;
+            left: -100px;
+            top: 100px;
+            filter: opacity(0.20);
+        }
+    }
 }
 .menu-cat{
     margin-bottom: 100px;
