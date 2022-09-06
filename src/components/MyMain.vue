@@ -7,9 +7,9 @@
 <script>
 export default {
     name: "MyMain",
-    data() {
-        
-    }
+  components: {
+    
+  }
 }
 </script>
 
