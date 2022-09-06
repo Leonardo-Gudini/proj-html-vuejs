@@ -35,7 +35,6 @@
                 {
                     img: 'appetizers-menu-background.jpg',
                     title: 'appetiziers',
-                    color: 'green'
                 },
                 {
                     img: 'burgers-menu-background.jpg',

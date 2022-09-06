@@ -23,6 +23,7 @@
     }
 }
 .menu-cat{
+    margin-bottom: 100px;
     .container{
         max-width: 1200px;
         margin: 0 auto;
@@ -67,6 +68,35 @@
                     transform: translate(-50%, -50%);
                     color: white;
                 }
+            }
+        }
+    }
+}
+
+.order-app{
+    background-image: url('@/assets/images/app-ordering-scaled.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        .app-text{
+            padding-top: 200px;
+            h3{
+                color: white;
+                font-size: 25px;
+            }
+            h2{
+                color: gold;
+                font-size: 70px;
+            }
+        }
+        .mobile-store{
+            display: flex;
+            margin-top: 50px;
+            img{
+                width: 75%;
             }
         }
     }
