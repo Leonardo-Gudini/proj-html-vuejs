@@ -5,12 +5,15 @@
 
             <div class="title-section">
                 <h2>Menu Categories</h2>
-                <button class="btn-standard">view the full menu</button>
+                <button class="btn-standard">view the full menu <i class="fa-regular fa-circle-right"></i></button>
             </div>
 
             <ul>
                 <li v-for="(menu, index) in menus" :key="index">
-                    <img :src="require(`@/assets/images/${menu.img}`)" :alt="menu.title">
+                        <div class="layer-container">
+                            <img :src="require(`@/assets/images/${menu.img}`)" :alt="menu.title">
+                            <div class="layer"></div>
+                        </div>
                     <h5>{{menu.title}}</h5>
                 </li>
             </ul>

@@ -20,20 +20,20 @@
             <li v-for="(info, index) in infos" :key="index">{{info.title}}</li>
           </ul>
 
-          <div class="bedge" v-for="(bedge, index) in bedges" :key="index">
-            <img :src="require(`@/assets/images/${bedge.img}`)" :alt="bedge.txt">
+          <div  v-for="(bedge, index) in bedges" :key="index">
+            <img class="bedge" :src="require(`@/assets/images/${bedge.img}`)" :alt="bedge.txt">
           </div>
         </div>
 
         <ul>
           <li><h4>opening hours</h4></li>
-          <li v-for="(opening, index) in openings" :key="index">{{`${opening.day} - ${opening.time}`}}</li>
+          <li class="openings" v-for="(opening, index) in openings" :key="index">{{`${opening.day} - `}} <span>{{`${opening.time}`}}</span> </li>
         </ul>
 
         <div class="voucher">
           <h4>vouchers</h4>
           <img src="@/assets/images/footer-coupon-200x200.png" alt="coupon">
-          <p>Just Use The Code <span>firstorder</span> At Checkout</p>
+          <p>Just Use The Code <br> <span>firstorder</span> <br> At Checkout</p>
         </div>
 
       </div>
@@ -45,11 +45,13 @@
         <input type="email" name="" id="" placeholder="you@email.com">
         <button type="submit" class="btn-large">Subscribe</button>
 
-        <ul>
-          <li v-for="(social, index) in socials" :key="index">
-            <i :class="social.icon"></i>
-          </li>
-        </ul>
+        <div class="social-container">
+          <ul>
+            <li v-for="(social, index) in socials" :key="index">
+              <i :class="social.icon"></i>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -181,7 +183,7 @@ export default {
               icon: "fa-brands fa-youtube"
             },
             {
-              icon: "fa-brands fa-facebook"
+              icon: "fa-regular fa-envelope"
             },
           ]
         }

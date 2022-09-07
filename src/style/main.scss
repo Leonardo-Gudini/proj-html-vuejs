@@ -15,8 +15,14 @@
             img{
                 width: 100%;
             }
+            h3{
+                font-weight: lighter;
+                margin: 15px;
+            }
             h4{
-                color: red;
+                color: #b0202a;
+                font-size: 16px;
+                font-weight:100;
             }
         }
 
@@ -25,14 +31,14 @@
         background-image: url('@/assets/images/first-order-background-scaled.jpg');
         background-position: center;
         background-size: cover;
-        height: 800px;
+        height: 650px;
         position: relative;
         .op-30{
             position: absolute;
             left: -100px;
             top: 40px;
             filter: opacity(0.30);
-            color: red;
+            color: #b0202a;
         }
         .op-25{
             position: absolute;
@@ -72,7 +78,7 @@
                     color: green;
                 }
                 .gold{
-                    color: goldenrod;
+                    color: gold;
                 }
                 .blue{
                     color: #42a3ef;
@@ -83,9 +89,21 @@
                 .icon{
                     font-size: 35px;
                 }
-                img{
-                    width: 100%;
+                .layer-container{
+                    position: relative;
+                    .layer{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 99%;
+                        background-color: rgba($color: #000000, $alpha: 0.4);
+                    }
+                    img{
+                        width: 100%;
+                    }
                 }
+                
                 h5{
                     position: absolute;
                     z-index: 999;
@@ -93,6 +111,7 @@
                     left: 50%;
                     transform: translate(-50%, -50%);
                     color: white;
+                    text-transform: uppercase;
                 }
             }
         }
@@ -135,6 +154,8 @@
         margin: 0 auto;
         .title-section{
             padding: 20px;
+            display: flex;
+            justify-content: space-between;
         }
         ul{
             display: flex;
@@ -149,6 +170,10 @@
                 }
                 h2{
                     margin-bottom: 20px;
+                }
+                p{
+                    font-weight: 100;
+                    line-height: 25px;
                 }
             }
         }

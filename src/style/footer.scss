@@ -4,24 +4,54 @@ footer{
     background-size: cover;
     height: 1000px;
     color: white;
-    padding-top: 100px;
+    padding-top: 90px;
     .footer-container{
         max-width: 1400px;
         margin: 0 auto;
         .footer-list{
             display: flex;
             justify-content: space-between;
+            img.bedge{
+                width: 50%;
+                margin: 0 20px;
+                border: 2px solid white;
+                border-radius: 5px;
+            }
+            h4{
+                text-transform: uppercase;
+                margin-bottom: 30px;
+            }
             ul{
                 margin: 20px;
                 list-style-type: none;
+                padding: 1px;
+                .openings span{
+                    color: gold;
+                }
+                li{
+                    margin: 10px 0;
+                    font-weight: 500;
+                }
                 li.firstGold:first-of-type{
                     color: gold;
                 }
                 li:first-of-type{
                     margin-bottom: 20px;
                 }
+                
             }
-            
+            .voucher{
+                padding: 30px;
+                text-align: center;
+                span{
+                    color: gold;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                }
+                img{
+                    width: 50%;
+                }
+            }
         }
         .footer-form{
             text-align: center;
@@ -37,11 +67,12 @@ footer{
             }
             h2{
                 color: gold;
-                font-size: 20px;
+                font-size: 30px;
                 margin-bottom: 20px;
             }
             p{
                 margin-bottom: 20px;
+                font-weight: 100;
             }
             input{
                 border: none;
@@ -57,6 +88,16 @@ footer{
                 border: none;
                 border-radius: 20px;
                 padding: 10px;
+            }
+            .social-container{
+                margin: 40px auto;
+                ul{
+                    display: flex;
+                    list-style-type: none;
+                    li{
+                        margin: 0 10px;
+                    }
+                }
             }
         }
     }

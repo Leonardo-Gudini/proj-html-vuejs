@@ -30,7 +30,7 @@ export default {
                 {
                     img: 'skin-on-fries-400x571.jpg',
                     title: 'Skin On Fries',
-                    price: '$3.00-$6.00'
+                    price: '$3.00 - $6.00'
                 },
                 {
                     img: 'choco-cookie-frappe-400x571.jpg',

@@ -2,7 +2,7 @@
   <div class="jumbo">
     <div class="jumbo-text">
         <h1>
-          Hungry?<br>
+          <span class="txt-sm">Hungry?</span> <br>
           <span class="jumbo-colored">Great Food</span><br>
           Delivered<br>
         </h1>
@@ -25,5 +25,5 @@ export default {
 </script>
 
 <style lang="scss">
-
+  
 </style>

@@ -7,7 +7,7 @@ header{
     .container{
         max-width: 1200px;
         margin: 0 auto;
-        nav{
+        nav{ //NAVBAR STYLE
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -24,19 +24,23 @@ header{
                     margin: 0 15px;
                 }
                 li:first-of-type{
-                    color: goldenrod;
+                    color: gold;
                     
                 }
             }
             
         }
+        // JUMBO STYLE
         .jumbo{
             color: white;
             .jumbo-text{
                 margin-top: 250px;
-                font-size: 30px;
+                font-size: 40px;
+                .txt-sm{
+                    font-size: 40px;
+                }
                 .jumbo-colored{
-                    color: goldenrod;
+                    color: gold;
                 }
             }
 
@@ -62,7 +66,13 @@ header{
                         margin: 0 20px;
                         .info-icon{
                             margin-right: 5px;
-                        } 
+                            color: #444;
+                        }
+                        .info-text{
+                            color: #444;
+                            font-weight: 500;
+                            text-transform: uppercase;
+                        }
                     }
                 }
 

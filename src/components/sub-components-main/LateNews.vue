@@ -1,9 +1,10 @@
 <template>
     <section class="late-news">
             <div class="container">
+
                 <div class="title-section">
                     <h2>Latest News</h2>
-                    <button class="btn-standard">read more news</button>
+                    <button class="btn-standard">read more news <i class="fa-regular fa-circle-right"></i></button>
                 </div>
             
 
