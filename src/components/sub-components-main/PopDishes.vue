@@ -4,7 +4,13 @@
 
     <ul>
         <li v-for="(dish, index) in dishes" :key="index">
-            <img :src="require(`@/assets/images/${dish.img}`)" :alt="dish.title">
+            <div class="layer-container">
+                <img :src="require(`@/assets/images/${dish.img}`)" :alt="dish.title">
+                <div class="layer">
+                    <i><i class="fa-regular fa-square-check"></i></i>
+                    <p>VIEW CART</p>
+                </div>
+            </div>
             <h3>{{dish.title}}</h3>
             <h4>{{dish.price}}</h4>
         </li>

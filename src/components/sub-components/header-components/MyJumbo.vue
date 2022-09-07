@@ -7,7 +7,7 @@
           Delivered<br>
         </h1>
         
-        <button class="btn-standard">view our menu <span></span></button>
+        <button class="btn-standard">view our menu <span><i class="fa-regular fa-circle-right"></i></span></button>
     </div>
 
     <InfoCard/>
