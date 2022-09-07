@@ -46,7 +46,9 @@
         <button type="submit" class="btn-large">Subscribe</button>
 
         <ul>
-          <!-- <li v-for="(social, index) in socials" :key="index" v-html="social.icon"></li> -->
+          <li v-for="(social, index) in socials" :key="index">
+            <i :class="social.icon"></i>
+          </li>
         </ul>
       </div>
     </div>
@@ -161,25 +163,25 @@ export default {
           ],
           socials:[
             {
-              icon: <i class="fa-brands fa-facebook-f"></i>
+              icon: "fa-brands fa-facebook-f"
             },
             {
-              icon: <i class="fa-brands fa-twitter"></i>
+              icon: "fa-brands fa-twitter"
             },
             {
-              icon: <i class="fa-brands fa-instagram"></i>
+              icon:"fa-brands fa-instagram"
             },
             {
-              icon: <i class="fa-brands fa-linkedin"></i>
+              icon: "fa-brands fa-linkedin"
             },
             {
-              icon: <i class="fa-brands fa-"></i>
+              icon: "fa-solid fa-rss"
             },
             {
-              icon: <i class="fa-brands fa-youtube"></i>
+              icon: "fa-brands fa-youtube"
             },
             {
-              icon: <i class="fa-brands fa-facebook"></i>
+              icon: "fa-brands fa-facebook"
             },
           ]
         }
